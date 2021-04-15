@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    section div h1{
+    font-family: 'Lobster';
+}
+    nav h1{
+        font-family: 'Dela Gothic One';
+    }
+    nav a, nav p, button, .bottom-button{
+        font-family: 'Work Sans';
+    }
+    section div p{
+        font-family: 'Work Sans';
+    }
+
+#navbar{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1d1d1d;
+    align-items: center;
+    padding: 3vh;
+    padding-top: 6vh;
+    padding-left: 9vh;
+    padding-right: 15vh;
+    position: sticky;
+    top: 0;
+    
+}
+#navbar h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 8vh;
+    color: #ffff;
+    
+}
+#navbar-left{
+    color: rgb(104, 104, 104);
+    text-align: right;
+    padding-bottom: 3.5vh;
+    font-size: 14px;
+    margin-left: 10rem;
+    margin-top: 1px;
+
+}
+#navbar-left b{
+    color: #bdbdbd;
+}
+#nav-list{
+    display: flex;
+    list-style: none;
+    
+}
+#nav-list a{
+    text-decoration: none;  
+    color: #c2c2c2;
+    align-items: left;
+}
+#nav-list-margin{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; */
+    padding: 3vh;
+    padding-right: 3vh;
+    font-size: smaller;
+    
+
+}
+/* parte de baixo */
+
+#home {    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./assets/images/clipart1806930.png);
+    background-repeat: no-repeat;
+    background-size: 80rem;
+    background-position: 25rem;
+}
+#home div{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:space-evenly;
+    padding-bottom: 10rem;
+    padding-top: 6rem;
+    text-align: justify;
+}
+#home div h1{
+    font-size: 2rem;
+    align-items: center;
+    text-align: justify;
+    padding-left: 6rem;
+    width: 68%;
+    padding-bottom: 1rem;
+}
+#home div p{
+    align-items: center;
+    text-align: justify;
+    padding-left: 6rem;
+    width: 68%;
+    padding-bottom: 1rem;
+    margin-bottom: 2.7rem;
+}
+.img-home{
+    width: 40rem;
+    height: 40rem;
+    position: left, 100rem;
+}
+
+#home div button{
+    border: none;
+    width: 21.4vw;
+    height: 8vh;
+    color: #ffff;
+    background-color: #1d1d1d;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-bottom: 5%;
+    transition: .3s;
+    align-content: left;
+}
+#home div button:hover{
+    transition: .3s;
+    background-color: #000000 ;
+    cursor: pointer;
+    
+}
+.bottom-button{
+    font-size: 13px;
+    color: #5f5e5e;
+    text-align: left;
+}
+
