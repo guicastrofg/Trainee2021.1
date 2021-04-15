@@ -1,80 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Barlow:wght@300;400;700&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-    section div h1{
-    font-family: 'Lobster';
-}
-    nav h1{
-        font-family: 'Dela Gothic One';
+    nav{
+        font-family: 'Archivo', sans-serif;
+        
     }
-    nav a, nav p, button, .bottom-button{
-        font-family: 'Work Sans';
+    section div h4, h1{
+        font-family: Archivo;
     }
     section div p{
-        font-family: 'Work Sans';
+        font-family: 'Barlow', sans-serif;
     }
-
-#navbar{
+    
+    #navbar{
     width: 100%;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #1d1d1d;
+    background-color: #1488F2;
     align-items: center;
-    padding: 3vh;
-    padding-top: 6vh;
-    padding-left: 9vh;
-    padding-right: 15vh;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
     position: sticky;
     top: 0;
     
 }
-#navbar h1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 8vh;
+#navbar h4{
     color: #ffff;
-    
+    font-size: 18px;  
 }
-#navbar-left{
-    color: rgb(104, 104, 104);
-    text-align: right;
-    padding-bottom: 3.5vh;
-    font-size: 14px;
-    margin-left: 10rem;
-    margin-top: 1px;
-
-}
-#navbar-left b{
-    color: #bdbdbd;
-}
-#nav-list{
+.nav-list{
     display: flex;
     list-style: none;
-    
 }
-#nav-list a{
+.nav-list a{
     text-decoration: none;  
-    color: #c2c2c2;
-    align-items: left;
+    color: #ffffff;
+    padding: 1.5rem;
+    padding-left: 0.01px;
 }
 #nav-list-margin{
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-evenly; */
-    padding: 3vh;
-    padding-right: 3vh;
-    font-size: smaller;
-    
-
+    font-size: 18px;
 }
 /* parte de baixo */
 
@@ -83,61 +55,59 @@
     height: 100vh;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-image: url(./assets/images/clipart1806930.png);
-    background-repeat: no-repeat;
-    background-size: 80rem;
-    background-position: 25rem;
+    background-color: #1488F2 ;
+    align-items:center;
+    padding-bottom: 5rem;
+    justify-content: space-between
+
 }
 #home div{
     width: 100%;
     height: 95vh;
     display: flex;
     flex-direction:column;
-    align-items: center;
+    color: #ffff;
+    padding-left: 2.9rem;
     justify-content:space-evenly;
-    padding-bottom: 10rem;
+    padding-bottom: 12rem;
     padding-top: 6rem;
-    text-align: justify;
+}
+#home div h4{
+    width: 68%;
+    padding-top: 6.9rem;
+    font-size: 1.8rem;
 }
 #home div h1{
-    font-size: 2rem;
-    align-items: center;
-    text-align: justify;
-    padding-left: 6rem;
+    font-size: 7.2rem;
     width: 68%;
-    padding-bottom: 1rem;
 }
 #home div p{
-    align-items: center;
-    text-align: justify;
-    padding-left: 6rem;
-    width: 68%;
-    padding-bottom: 1rem;
-    margin-bottom: 2.7rem;
+    padding-bottom: 5rem;
+    font-size: 1.6rem;
+    color: #DAD8D8;
+    margin-bottom: 1.7rem;
 }
 .img-home{
-    width: 40rem;
-    height: 40rem;
-    position: left, 100rem;
+    width: 63.36vw;
+    height: 57.02vh;
+    padding-right: 1.7vw;
+
 }
 
 #home div button{
     border: none;
-    width: 21.4vw;
-    height: 8vh;
+    width: 26.4vw;
+    height: 11vh;
     color: #ffff;
-    background-color: #1d1d1d;
-    font-weight: bold;
-    border-radius: 3px;
-    margin-bottom: 5%;
+    background-color: #04D361;
+    font-size: 1.5rem;
+    border-radius: 6px;
     transition: .3s;
-    align-content: left;
+    
 }
 #home div button:hover{
     transition: .3s;
-    background-color: #000000 ;
+    background-color: #035327 ;
     cursor: pointer;
     
 }
